@@ -16,7 +16,19 @@ mkdir version-controlled
 
 cd version-controlled
 
-git clone ****
+git config --global user.name "John Doe"
+
+git config --global user.email johndoe@example.com
+
+git config --list
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+cat ~/.ssh/id_rsa.pub
+
+# add SSH key to git web service and then clone repo
+
+git clone git@****
 
 pip install fava
 
