@@ -6,6 +6,8 @@ sudo apt install python3 -y
 
 sudo apt install python3-pip -y
 
+sudo apt install bc -y
+
 sudo apt install git -y
 
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -53,3 +55,4 @@ pip install matplotlib
 
 pip install markdown
 
+pip install pandas
