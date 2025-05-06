@@ -10,6 +10,8 @@ sudo apt install bc -y
 
 sudo apt install git -y
 
+sudo apt install pdfgrep -y
+
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 cat ~/.ssh/id_rsa.pub
